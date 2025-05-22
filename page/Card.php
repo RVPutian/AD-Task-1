@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/Card_style.css">
 </head>
 <body>
-    <div>
+    <div class="page-wrapper">
+    <?php include   '../components/Header.php'; ?>
+    
+    <div class="main-container">
         <!-- Trainer Info -->
-        <div>
+        <div class="trainer-info">
             <h2>Trainer Info</h2>
             <?php
             $name = "Ash Ketchum";
@@ -21,7 +24,7 @@
         </div>
 
         <!-- Trainer Experience -->
-        <div>
+        <div class="trainer-experience">
             <h2>Trainer Experience</h2>
             <?php
             if ($age < 18) {
@@ -33,7 +36,7 @@
         </div>
 
         <!-- Pokémon Team -->
-        <div>
+        <div class="pokemon-team">
             <h2>Pokémon Team</h2>
             <div class="pokemon-container">
                 <div class="pokemon-box" data-name="Charizard"></div>
@@ -44,6 +47,8 @@
                 <div class="pokemon-box" data-name="Guzzlord"></div>
             </div>
         </div>
+    </div>
+     <?php include   '../components/Footer.php'; ?>
     </div>
 </body>
 </html>
