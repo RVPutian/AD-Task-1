@@ -1,0 +1,16 @@
+{
+    "name": "rvput/ad-task-1",
+    "description": "project",
+    "autoload": {
+        "psr-4": {
+            "Rvput\\AdTask1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RVPutian",
+            "email": "rvputian2004@gmail.com"
+        }
+    ],
+    "require": {}
+}

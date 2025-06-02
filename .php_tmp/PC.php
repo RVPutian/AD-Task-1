@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pokémon PC</title>
-    <link rel="stylesheet" href="assets/css/PC_style.css">
+    <link rel="stylesheet" href="/AD-Task-1/assets/css/PC_style.css">
 </head>
 <body>
     <div class="page-wrapper">
